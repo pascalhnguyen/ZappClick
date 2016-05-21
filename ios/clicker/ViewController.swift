@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController : UIViewController {
-
+    
+    // Login View Controller setup
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passTextField: UITextField!
     @IBOutlet weak var registerPageButton: UIButton!
