@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5065B5C01CE025B800D7C6E7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5065B5BF1CE025B800D7C6E7 /* RegisterViewController.swift */; };
+		5065B5C21CE02EC900D7C6E7 /* WaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5065B5C11CE02EC900D7C6E7 /* WaitViewController.swift */; };
+		5065B5C41CE02EDA00D7C6E7 /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5065B5C31CE02EDA00D7C6E7 /* MultipleChoiceViewController.swift */; };
+		5065B5C61CE02EE900D7C6E7 /* ShortAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5065B5C51CE02EE900D7C6E7 /* ShortAnswerViewController.swift */; };
+		5065B5C81CE02EF200D7C6E7 /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5065B5C71CE02EF200D7C6E7 /* TrueFalseViewController.swift */; };
 		5093F1411C34D735006BE83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093F1401C34D735006BE83E /* AppDelegate.swift */; };
 		5093F1431C34D735006BE83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093F1421C34D735006BE83E /* ViewController.swift */; };
 		5093F1461C34D735006BE83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5093F1441C34D735006BE83E /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5065B5BF1CE025B800D7C6E7 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5065B5C11CE02EC900D7C6E7 /* WaitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitViewController.swift; sourceTree = "<group>"; };
+		5065B5C31CE02EDA00D7C6E7 /* MultipleChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceViewController.swift; sourceTree = "<group>"; };
+		5065B5C51CE02EE900D7C6E7 /* ShortAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortAnswerViewController.swift; sourceTree = "<group>"; };
+		5065B5C71CE02EF200D7C6E7 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		5093F13D1C34D735006BE83E /* clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5093F1401C34D735006BE83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5093F1421C34D735006BE83E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +111,11 @@
 			children = (
 				5093F1401C34D735006BE83E /* AppDelegate.swift */,
 				5093F1421C34D735006BE83E /* ViewController.swift */,
+				5065B5BF1CE025B800D7C6E7 /* RegisterViewController.swift */,
+				5065B5C11CE02EC900D7C6E7 /* WaitViewController.swift */,
+				5065B5C31CE02EDA00D7C6E7 /* MultipleChoiceViewController.swift */,
+				5065B5C51CE02EE900D7C6E7 /* ShortAnswerViewController.swift */,
+				5065B5C71CE02EF200D7C6E7 /* TrueFalseViewController.swift */,
 				5093F1441C34D735006BE83E /* Main.storyboard */,
 				5093F14A1C34D735006BE83E /* Assets.xcassets */,
 				5093F14C1C34D735006BE83E /* LaunchScreen.storyboard */,
@@ -260,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5093F1491C34D735006BE83E /* clicker.xcdatamodeld in Sources */,
+				5065B5C61CE02EE900D7C6E7 /* ShortAnswerViewController.swift in Sources */,
+				5065B5C81CE02EF200D7C6E7 /* TrueFalseViewController.swift in Sources */,
 				5093F1431C34D735006BE83E /* ViewController.swift in Sources */,
 				5093F1411C34D735006BE83E /* AppDelegate.swift in Sources */,
+				5065B5C21CE02EC900D7C6E7 /* WaitViewController.swift in Sources */,
+				5065B5C01CE025B800D7C6E7 /* RegisterViewController.swift in Sources */,
+				5065B5C41CE02EDA00D7C6E7 /* MultipleChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +508,7 @@
 				5093F16A1C34D735006BE83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5093F16B1C34D735006BE83E /* Build configuration list for PBXNativeTarget "clickerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +517,7 @@
 				5093F16D1C34D735006BE83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5093F16E1C34D735006BE83E /* Build configuration list for PBXNativeTarget "clickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				5093F1701C34D735006BE83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
